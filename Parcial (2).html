@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>ejercicios</title>
+</head>
+<body>
+
+</body>
+<script type="text/javascript">
+
+var Usuarios = [
+"Jose", 29 , "Junio" , "Activo",
+"Diego", 17 , "Mayo" , "Inactivo",
+"Barbara", 19 , "Junio" , "Activo",
+"Daniel", 19 , "Abril" , "Inactivo",
+"Pablo" , 16 , "Junio" , "Activo",
+"Karla" , 24 , "Mayo" , "Inactivo",
+"Maria" , 32 , "Junio" , "Activo"
+]
+
+
+alert( "Gym" )
+
+
+var Registro = prompt( "1) Registro 2) Mostrar usuarios activos e inactivos 3) Salir" )
+
+
+if (Registro == "1" || Registro == "Registro") {
+alert("Registro para inscripcion")
+
+var Nombre = [prompt("Nombre")]
+var Edad = [prompt("Edad")]
+var Pago = [prompt("Mes de Pago")]
+if (Pago == "Junio" || Pago == "junio") {
+	var Estado = "Activo"
+} else {
+	var Estado = "Inactivo"
+}
+
+
+Usuarios.push(Nombre , Edad , Pago , Estado)
+
+var Mostrar = prompt("1) Mostrar usuarios activos e inactivos 2) Salir")
+
+if (Mostrar == "1" || Mostrar == "Mostrar usuarios") {
+
+	alert( Usuarios )
+}
+}
+
+if (Registro == "2" || Registro == "Mostrar usuarios") {
+
+alert("Usuarios activos e inactivos")
+
+alert( Usuarios )
+
+}
+
+
+
+
+
+</script>
+</html>
